@@ -1,0 +1,558 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #483C6C;
+  }
+
+  body img{
+    width: 10%;
+    height: 10%;
+    
+  }
+
+  header{
+    padding: 0;
+    margin: 0;
+    background: url('img/fon3.png');
+    background-size: 100%;
+    width: 1900px;
+    height: 900px;
+    
+  }
+
+  #header2 {
+    padding: 0;
+    margin: 0;
+    background: url('img/fonAbout.png') ;
+    background-size: 100%;
+    width: 1900px;
+    height: 800px;
+    
+  }
+
+ #Right_head{
+  margin-top: 25px;
+  float: right;
+ } 
+#Right_head a{
+  margin-right: 45px; 
+  font-size: 30px;
+  font-family: 'Corben', Georgia, Times, serif;
+  text-decoration: none;
+color: aliceblue;
+}
+
+
+ #Right_head a:hover {
+  border-bottom: 1.5px solid;
+  border-color: aliceblue;
+    }
+
+  
+
+#window{
+  /* margin-top: 354px; */
+  margin-top: 348px;
+  margin-left: 123px;
+  position: absolute;
+  background: url('img/567.jpg');
+  
+  width: 413px;
+  height: 538px;
+  border-radius: 15px; 
+  font-family: 'Corben', Georgia, Times, serif;
+  font-size: 25px;
+  color: aliceblue;
+  line-height: 50px;
+  
+  
+}
+
+#windo{
+  font-family: 'Corben', Georgia, Times, serif;
+  font-size: 55px;
+}
+
+#InputForm{
+  line-height: 25px; 
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  
+}
+
+#InputForm input{
+  color: aliceblue;
+  background: #483C6C;
+  margin-top: 15px;
+  font-size: 25px;
+  height: 35px;
+  width: 360px;
+  border: solid 0.5px #483C6C;
+  border-radius: 7px; 
+  transition: all 0.5s;
+  padding-left: 13px;
+  margin-bottom: 15px; 
+}
+
+#InputForm input:active {
+  border:  solid 2px  #2D1B51;
+  font-size: 30px;
+  /* box-shadow: 1px 1px 2px 0px #2D1B51; */
+ 
+}
+
+#InputForm input:focus{
+  font-size: 30px;
+  border:  solid 2px  #2D1B51;
+  outline: 0;
+  outline-offset: 0;
+  
+}
+
+
+
+/* #InputForm textarea{
+  height: 60px;
+} */
+
+#wind{
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#Space{
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 60px;
+  font-size: 120px;
+  
+  font-family: 'Corben', Georgia, Times, serif;
+  color:#FF014F;
+  color: transparent;
+  font-weight: normal;
+  text-shadow: 0 0 15px #2D1B51;
+  cursor: default;
+  /* transform: rotate(<30>); */
+  transition: all 1s;
+}
+
+.invise{
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none;   /* Chrome/Safari/Opera */
+-khtml-user-select: none;    /* Konqueror */
+-moz-user-select: none;      /* Firefox */
+-ms-user-select: none;       /* Internet Explorer/Edge */
+user-select: none;           /* Non-prefixed version, currently
+                                not supported by any browser */
+}
+
+  #Space:hover {
+    text-shadow: 0 0 white;
+    }
+
+    #Web{
+      position: absolute;
+      margin-left: 66.4%;
+      margin-top: 750px;
+      font-size: 100px;
+      font-family: 'Corben', Georgia, Times, serif;
+      color:#FF014F;
+      color: transparent;
+      font-weight: normal;
+      text-shadow: 0 0 15px #2D1B51;
+      cursor: default;
+      /* transform: rotate(<30>); */
+      transition: all 1s;
+    }
+    
+      #Web:hover {
+        text-shadow: 0 0 white;
+        }
+
+        #technology{
+          position: absolute;
+          margin-left: 40.4%;
+          margin-top: 750px;
+          font-size: 100px;
+          font-family: 'Corben', Georgia, Times, serif;
+          color:#FF014F;
+          color: transparent;
+          font-weight: normal;
+          text-shadow: 0 0 15px #2D1B51;
+          cursor: default;
+          /* transform: rotate(<30>); */
+          transition: all 1s;
+        }
+        
+          #technology:hover {
+            text-shadow: 0 0 white;
+            }
+    
+
+    #rocket{
+      margin-left: 25px;
+      margin-top: 25px;
+      width: 55px;
+      height: 55px;
+      position: absolute;
+
+    }
+
+    #name{
+      font-size: 35px;
+      font-family: 'Corben', Georgia, Times, serif;
+      margin-top: 20px;
+      margin-left: 4.7%;
+      color: aliceblue;
+      position: absolute;
+    }
+
+    #name span{
+      font-size: 2s5px;
+    }
+
+    #astro{
+      z-index: 1;
+      right: 0;
+      bottom: 0;
+      position: fixed;
+      width: 300px;
+      height: 420px;
+    }
+
+  footer{
+    background: url('./img/foot2.png');
+    width: 1900px;
+    height: 180px;
+    
+
+  }
+
+  /* #footer2{
+    background: url('/img/foot3.png');
+    width: 1900px;
+    height: 180px;
+  } */
+
+
+  #foot{
+    margin-left: 50px;
+   
+  }
+  /* #foot a{
+    
+
+  } */
+
+  #icons{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 92px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+  }
+
+  #icons1{
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 92px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  #icons2{
+    position: absolute;
+    margin-left: 71px;
+    margin-top: 92px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  /* #icons3{
+    position: absolute;
+    margin-left: 98px;
+    margin-top: 92px;
+    width: 25px;
+    height: 25px;
+    border-radius: 7px;
+  } */
+
+  /* #leftSide{
+    margin-top: 75px;
+  } */
+
+  #leftSide a{
+    
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #phone{
+    margin-top: 95px;
+    width: 11px;
+    height: 15px;
+  }
+
+  hr{
+    border-bottom-style: solid;
+    width: 1800px;
+    
+  }
+
+  #borderLine{
+    margin-top: 15px;
+    border-bottom: solid 1px aliceblue;
+    width: 1815px;
+    margin-left: 40px;
+  }
+
+  #rightSide{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 17px;
+    margin-right: 55px;
+    margin-top: 97px;
+    float: right;
+   
+  }
+#infoSite{
+  color: gainsboro;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  margin-left: 55px;
+  font-size: 11px;
+  margin-top: 5px;
+}
+  #rights{
+    color: gainsboro;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 55px;
+    margin-top: 5px;
+  }
+
+  #share {
+    margin-left: 18px;
+    
+    font-family: 'Corben', Georgia, Times, serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px 10px 10px;
+    
+    /* padding: .8em 1em calc(.8em + 3px); */
+    border-radius: 20px;
+    background: #FFB382;
+    /* box-shadow: 0 -3px  inset; */
+    transition: 0.2s;
+  } 
+  #share:hover { 
+    background: #FFB382; 
+    box-shadow: 2px 3px 2px 1px  #FF5E7A;
+  }
+  #share:active {
+    background: #FF5E7A;
+    box-shadow: 0 3px #FF5E7A ;
+  }
+
+  #subscribe {
+    margin-left: 15px;
+    
+    font-family: 'Corben', Georgia, Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 9px 9px 9px;
+    /* padding: .8em 1em calc(.8em + 3px); */
+    border-radius: 20px;
+    border: 2px solid #FFB382; 
+    /* background: #FFB382; */
+    /* box-shadow: 0 -3px  inset; */
+    transition: 0.2s;
+  } 
+  #subscribe:hover { 
+    border: 2px solid #FF5E7A; 
+    
+  }
+  #subscribe:active {
+    border: 2px solid #FF5E7A;
+   
+  }
+
+  #line{
+    border-bottom: solid 1px aliceblue;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 15px;
+    width: 380px;
+  }
+
+  #rightInfo{
+    font-family: 'Corben', Georgia, Times, serif;
+    position: absolute;
+    margin-left: 69.4%;
+    margin-top: 215px;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 35px;
+    /* background: rgb(99, 80, 138); */
+    padding: 5px;
+    background-image: url(img/right.png);
+    border-radius: 15px;
+    width: 442px;
+    height: 492px;
+    }
+
+    #slider{
+      /* float: left; */
+      width: 430px;
+      height: 500px;
+      border: 5px solid rgb(99, 80, 138);
+      box-shadow: 0 0 100px rgb(99, 80, 138) ;
+      border-radius: 9px;
+      margin: 50px auto;
+      overflow: hidden;
+    }
+  
+    .polosa{
+      position: relative;
+      /* background-image: url('img/6028.png_860.png'); */
+      /* background: yellow; */
+      width: 100000px;
+      left: 0;
+      transition: all ease 1.2s;
+    }
+
+
+    .poloska{
+      position: relative;
+      /* background-image: url('img/6028.png_860.png'); */
+      /* background: yellow; */
+      width: 100000px;
+      left: 0;
+      transition: none;
+    }
+
+    .poloska img{
+      float: left;
+      width: 430px;
+      height: 500px;
+      /* margin-right: 15px;
+      margin-left: 15px; */
+    }
+  
+    .poloska::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+  
+    .polosa img{
+      float: left;
+      width: 430px;
+      height: 500px;
+      /* margin-right: 15px;
+      margin-left: 15px; */
+    }
+  
+    .polosa::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  
+    #slider button{
+      margin-top: 15px;
+      z-index: 1;
+    }
+  
+    #body-slider{
+      margin-left: 70%;
+      position: absolute;
+      margin-top:160px; 
+      text-align: center;
+      
+    }
+  
+    #slider-left{
+      position: relative;
+      cursor: pointer;
+      top: -47px;
+    }
+    
+    #slider-right{
+      position: relative;
+      cursor: pointer;
+      top: -47px;
+    }
+    
+    /* #rails{
+      position: absolute;
+      top: -19.7%;
+      z-index: 1;
+      left: 7.8%;
+      width: 1585px;
+      height: 1395px;
+    } */
+
+
+  #circle1 {
+    position: absolute;
+      width: 11px;
+      height: 11px;
+      background: rgb(216, 216, 216);
+      /* rgb(216, 216, 216) */
+      -moz-border-radius: 60px;
+      -webkit-border-radius: 60px;
+      border-radius: 60px;
+      top: 535px;
+      margin-left: 180px;
+      cursor: pointer;
+  }
+
+  #circle2 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background: #a5a5a5;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    top: 535px;
+      margin-left: 210px;
+      cursor: pointer;
+}
+#circle3 {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background: #a5a5a5;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  top: 535px;
+  margin-left: 240px;
+  cursor: pointer;
+}
+
+#contactsInfo{
+  color: aliceblue;
+  font-size: 30px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 480px;
+  line-height: 65px;
+  
+}
