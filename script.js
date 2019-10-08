@@ -24,7 +24,7 @@ let polosa= document.getElementById('polosa');
 // }
 
 function autoSlider() {
-    
+    // if(window.innerWidth < )
     time = setTimeout (function () {
     if(left <= -1290){
         polosa.className = 'poloska';
